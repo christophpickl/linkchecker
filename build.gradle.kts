@@ -1,0 +1,6 @@
+
+dependencies {
+}
+
+// tests
+// DependencyUpdatesTask
