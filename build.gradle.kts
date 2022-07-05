@@ -24,7 +24,7 @@ dependencies {
 gradlePlugin {
     plugins {
         create("linkCheckerPlugin") {
-            id = "com.github.christophpickl.link-checker"
+            id = "com.github.christophpickl.linkchecker"
             implementationClass = "com.github.christophpickl.linkchecker.LinkChecker"
         }
     }
@@ -34,7 +34,7 @@ publishing {
     publications {
         create<MavenPublication>("maven") {
             groupId = "com.github.christophpickl"
-            artifactId = "link-checker"
+            artifactId = "linkchecker"
             version = "1.0"
 
             from(components["java"])
